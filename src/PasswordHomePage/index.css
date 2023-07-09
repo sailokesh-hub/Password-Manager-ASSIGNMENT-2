@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  font-family: 'roboto';
+}
+
+.password-manager-container {
+  background-image: linear-gradient(to bottom right, #9ba9eb, #c3caea);
+  height: 100vh;
+  padding: 30px;
+  overflow: auto;
+}
+
+.card-container {
+  width: 800px;
+  margin: auto;
+}
+
+.app-logo {
+  width: 200px;
+  height: 70px;
+}
+
+.password-manager-input-container {
+  background-color: #5763a5;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.password-manager-logo {
+  width: 250px;
+  height: 250px;
+}
